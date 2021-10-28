@@ -1,0 +1,9 @@
+.MuiPaper-root.MuiPaper-elevation {
+  margin: auto;
+  width: 70%;
+  background-color: #F8F8F8;
+}
+
+.MuiTableCell-root.MuiTableCell-head {
+  font-weight: 600;
+}

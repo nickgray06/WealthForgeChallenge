@@ -1,0 +1,20 @@
+{
+  "name": "wealthforge-technical-challenge",
+  "version": "1.0.0",
+  "description": "This repository contains tool and information necessary to complete the WealthForge Technical Challenge.",
+  "main": "generate-data.js",
+  "private": false,
+  "scripts": {
+    "generate-data": "node generate-data.js",
+    "start": "nodemon index.js"
+  },
+  "devDependencies": {
+    "faker": "^5.5.3"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "fs-extra": "^10.0.0",
+    "nodemon": "^2.0.14"
+  }
+}
